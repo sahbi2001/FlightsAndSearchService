@@ -20,3 +20,14 @@
 
 ```
 - once you've added your db config as listed above,go to the src folder from your terminal and execule the `npx squelize db:create`
+
+
+## DB Design
+	- Airlpane Table
+	- Flight
+	- Airport
+	- City
+
+    - A Flight belong to an airplane but one airplane can be used in multiple flights.
+    - A cuty can have multiple airpots but one airport belong to a city.
+    - One airport can have many flights, but a flight belong to one airport.
